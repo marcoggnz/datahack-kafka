@@ -1,4 +1,4 @@
-# Kafka Twitter Sentiment Analysis Pipeline
+# Kafka X Sentiment Analysis Pipeline
 
 A real-time sentiment analysis system using **Apache Kafka** and **Hugging Face Transformers**, powered by a local Kafka cluster in Docker. Tweets are simulated from a CSV file and analyzed using a fine-tuned BERT model. This project is part of the Master's in Big Data Architecture & Engineering at Datahack.
 
