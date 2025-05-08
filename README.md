@@ -136,7 +136,27 @@ Open Kafka UI at http://localhost:8080
 
 ## Project Structure
 
-<pre> ```text ├── data/ │ └── test.csv ├── images/ │ ├── docker-compose-cluster-kafka.yml │ └── Dockerfile ├── src/ │ ├── config.py │ ├── producer.py │ ├── consumer.py │ └── visualization.py ├── run_pipeline.sh # One-click startup script 🟢 ├── sentiment_results.csv # Output file with predictions ├── sentiment_distribution.png # Chart of sentiment results ├── producer.log # Log file ├── consumer.log # Log file ├── README.md # You are here └── .venv/ # Virtual environment (not committed) ``` </pre>
+```
+├── data/
+│   └── test.csv
+├── images/
+│   ├── docker-compose-cluster-kafka.yml
+│   └── Dockerfile
+├── src/
+│   ├── config.py
+│   ├── producer.py
+│   ├── consumer.py
+│   └── visualization.py
+├── run_pipeline.sh              # One-click startup script 🟢
+├── sentiment_results.csv        # Output file with predictions
+├── sentiment_distribution.png   # Chart of sentiment results
+├── producer.log                 # Log file
+├── consumer.log                 # Log file
+├── requirements.txt             # Python dependencies
+├── README.md                    # You are here
+└── .venv/                       # Virtual environment (not committed)
+```
+
 
 ## Notes
 
